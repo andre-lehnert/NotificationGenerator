@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.andre_lehnert.notificationgenerator.MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:stretchColumns="1,2,3,4">
+
+        <TableRow>
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="1"
+                android:id="@+id/fab11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenBlue"
+                android:onClick="buttonClicked"
+                android:src="@drawable/quadrat" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="2"
+                android:id="@+id/fab12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenRed"
+                android:onClick="buttonClicked"
+                android:src="@drawable/quadrat" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="3"
+                android:id="@+id/fab13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenBrown"
+                android:onClick="buttonClicked"
+                android:src="@drawable/quadrat" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="4"
+                android:id="@+id/fab14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenWhite"
+                android:onClick="buttonClicked"
+                android:src="@drawable/quadrat" />
+        </TableRow>
+
+        <TableRow>
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="1"
+                android:id="@+id/fab21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenBlue"
+                android:onClick="buttonClicked"
+                android:src="@drawable/kreis" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="2"
+                android:id="@+id/fab22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenRed"
+                android:onClick="buttonClicked"
+                android:src="@drawable/kreis" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="3"
+                android:id="@+id/fab23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenBrown"
+                android:onClick="buttonClicked"
+                android:src="@drawable/kreis" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="4"
+                android:id="@+id/fab24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                android:onClick="buttonClicked"
+                app:backgroundTint="@color/tokenWhite"
+                android:src="@drawable/kreis" />
+        </TableRow>
+
+        <TableRow>
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="1"
+                android:id="@+id/fab31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenBlue"
+                android:onClick="buttonClicked"
+                android:src="@drawable/lego" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_column="2"
+                android:id="@+id/fab32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@color/tokenRed"
+                android:onClick="buttonClicked"
+                android:src="@drawable/lego" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</RelativeLayout>
